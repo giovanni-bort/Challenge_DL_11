@@ -44,7 +44,7 @@ disp('Training model..')
 
 label=zeros(num_files,num_classes);
  
-for i = 220:230 %num_files
+for i = 1:num_files
     
     disp(['    ', num2str(i), '/', num2str(num_files), '...']);
     
